@@ -1,16 +1,44 @@
-# React + Vite
+# GitHub Actions Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This project is a simple React web application served by a Node.js server, built to show how a CI/CD pipeline works with GitHub Actions. The frontend, built with React and Vite, is a single page titled "React GitHub Actions Pipeline". It shows an "Application is running" status and an interactive counter button that proves the app is live and responding. The backend is an Express server that serves the built React files, sends every page route back to index.html, and has a /health endpoint that returns { "status": "healthy" } so the hosting platform can check the app is up. Code quality is checked with ESLint, and three unit tests written with Vitest and React Testing Library confirm that the heading, the status message and the counter work correctly. On every push, the GitHub Actions workflow installs dependencies, lints, tests and builds the app. If all of these steps pass, it automatically deploys the app to Render through a deploy hook stored as a GitHub secret.
+## Project Structure
+```text
+react-cicd-assignment/
+├── src/
+│   ├── App.jsx
+│   ├── App.test.jsx
+│   ├── main.jsx
+│   └── setupTests.js
+├── server.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── .gitignore
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Verification
 
-## React Compiler
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/test.PNG" alt="Local Test" width="350"/>
+      <br/>
+      <b>Figure 1: Test Locally</b>
+    </td>
+    <td align="center" rowspan="2">
+      <img src="images/health.PNG" alt="API Health Check" width="350"/>
+      <br/>
+      <b>Figure 3: Checking API Health</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/local.PNG" alt="Frontend" width="350"/>
+      <br/>
+      <b>Figure 2: Frontend</b>
+    </td>
+  </tr>
+</table>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
