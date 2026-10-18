@@ -23,19 +23,19 @@ react-cicd-assignment/
 <table>
   <tr>
     <td align="center">
-      <img src="images/test.PNG" alt="Local Test" width="350"/>
+      <img src="images/test.png" alt="Local Test" width="350"/>
       <br/>
       <b>Figure 1: Test Locally</b>
     </td>
     <td align="center" rowspan="2">
-      <img src="images/health.PNG" alt="API Health Check" width="350"/>
+      <img src="images/health.png" alt="API Health Check" width="350"/>
       <br/>
       <b>Figure 3: Checking API Health</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="images/local.PNG" alt="Frontend" width="350"/>
+      <img src="images/local.png" alt="Frontend" width="350"/>
       <br/>
       <b>Figure 2: Frontend</b>
     </td>
