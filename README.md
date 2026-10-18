@@ -114,6 +114,32 @@ This project deploys the dice_gitaction_assignment Node app from the main branch
 ![Build Job Screenshot](images/render.png)
 
 
+on press deploy button deploying star as shown in following screenshot
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/9.png" alt="Local Test" width="350"/>
+      <br/>
+      <b>Figure 1: Render deploy dashboard</b>
+    </td>
+    <td align="center" rowspan="2">
+      <img src="images/renderapi.png" alt="API Health Check" width="350"/>
+      <br/>
+      <b>Figure 3: Checking API Health(Render)</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/ver.png" alt="Frontend" width="350"/>
+      <br/>
+      <b>Figure 2: Render Application Frontend</b>
+    </td>
+  </tr>
+</table>
+
+
+
 
 
 
