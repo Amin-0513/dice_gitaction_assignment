@@ -14,6 +14,7 @@ export default function App() {
         <p>
           This application is deployed automatically through
           a GitHub Actions CI/CD workflow.
+          My name is Qazi Khalid Amin
         </p>
 
         <div className="status">
