@@ -189,7 +189,16 @@ jobs:
 ```
 
 on pressing commit changes then the deployment start
-![Build Job Screenshot](images/12.png)
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/12.png" alt="Local Testing" width="250"/>
+    </td>
+    <td align="center">
+      <img src="images/13.png" alt="Frontend Application" width="250"/>
+    </td>
+  </tr>
+</table>
 
 
 
