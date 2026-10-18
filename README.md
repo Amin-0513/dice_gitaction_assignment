@@ -200,9 +200,22 @@ on pressing commit changes then the deployment start
   </tr>
 </table>
 
+Let do experiment on changes  some thing in ui  on commit changes trigger in ui i added My name is Qazi Khalid Amin changes auto trigger as show follows
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/ax1.png" alt="Local Testing" width="250"/>
+    </td>
+    <td align="center">
+      <img src="images/ax2.png" alt="Frontend Application" width="250"/>
+    </td>
+  </tr>
+</table>
 
 
 
 
+## Changes verification
 
-
+![Build Job Screenshot](images/ax3.png)
