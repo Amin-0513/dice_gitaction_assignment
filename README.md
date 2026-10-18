@@ -138,6 +138,26 @@ on press deploy button deploying star as shown in following screenshot
   </tr>
 </table>
 
+### Create the github actions
+
+- Before setup github action we must setup deployment secret
+** Create the deployment secret**
+To connect Render to your GitHub Actions workflow, first open your Render service settings and create a Deploy Hook, then copy the generated URL. Next, go to your GitHub repository and navigate to Settings → Secrets and variables → Actions → New repository secret. Name the secret RENDER_DEPLOY_HOOK_URL and paste the copied Render Deploy Hook URL as its value. Once saved, your workflow can reference this secret to trigger a deployment on Render without exposing the URL in your code.
+
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/10.png" alt="Local Testing" width="250"/>
+    </td>
+    <td align="center">
+      <img src="images/deployhook.png" alt="Frontend Application" width="250"/>
+    </td>
+  </tr>
+</table>
+
+
 
 
 
