@@ -157,6 +157,39 @@ To connect Render to your GitHub Actions workflow, first open your Render servic
   </tr>
 </table>
 
+**Setup Git Action**
+click the setup the workflow himself a file open in .github/workflows named main.yml add the following code there 
+```bash
+name: React CI/CD Pipeline
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build React application
+        run: npm run build
+
+      - name: Run unit tests
+        run: npm test
+```
+
+on pressing commit changes then the deployment start
+![Build Job Screenshot](images/12.png)
 
 
 
