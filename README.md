@@ -106,7 +106,12 @@ Start on Render’s sign-in page and choose GitHub. GitHub then asks you to auth
   </tr>
 </table>
 
+## Deployment on Render
+This project deploys the dice_gitaction_assignment Node app from the main branch of the Amin-0513 GitHub repository to Render as a web service. The build step runs npm ci && npm run build to install dependencies and compile the app, then npm start launches it. Render uses the /health path to check that the service is running and responding, so the endpoint should return a successful status once the app is live.
 
+## Configration screenshort
+
+![Build Job Screenshot](images/render.png)
 
 
 
