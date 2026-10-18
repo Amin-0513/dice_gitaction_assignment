@@ -73,7 +73,7 @@ git remote add origin https://github.com/Amin-0513/dice_gitaction_assignment.git
 git push -u origin main
 ```
 ## Screenshot
-![Build Job Screenshot](screenshots/github.png)
+![Build Job Screenshot](images/github.png)
 
 ### Deploy on Render
 
