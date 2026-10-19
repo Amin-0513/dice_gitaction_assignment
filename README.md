@@ -226,7 +226,7 @@ Let do experiment on changes  some thing in ui  on commit changes trigger in ui 
 ### Render Application URLs
 
 - **App:** [https://dice-gitaction-assignment.onrender.com/](https://dice-gitaction-assignment.onrender.com/)
-- **Health Check:** [https://dice-gitaction-assignment.onrender.com//health](https://dice-gitaction-assignment.onrender.com//health)
+- **Health Check:** [https://dice-gitaction-assignment.onrender.com/health](https://dice-gitaction-assignment.onrender.com/health)
 
 
 
